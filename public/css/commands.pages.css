@@ -1,0 +1,37 @@
+h1 {
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+p {
+    max-width: 950px;
+}
+
+span {
+    color: #e6bd04;
+}
+
+table {
+    margin-top: 50px;
+    width: 80%;
+    height: 50vh;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #353128;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    text-align: start;
+    background-color: #353128;
+    color: #e6bd04;
+    border-bottom: 2px solid #e6bd04;
+}
+
+tr:hover {
+    background-color: #353128;
+}

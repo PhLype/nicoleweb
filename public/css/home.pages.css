@@ -1,0 +1,117 @@
+/* div.header */
+
+.header {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .content-title {
+    max-width: 900px;
+    font-size: 20px;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #fff;
+}
+
+.header .content-title h1 span {
+    color: #e6bd04;
+}
+
+.header .content-paragraph {
+    max-width: 900px;
+    font-size: 18px;
+}
+
+.header .content-buttons {
+    margin-top: 30px;
+}
+
+.header .content-buttons ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .content-buttons ul li {
+    padding: 10px;
+}
+
+.header .content-buttons ul li a {
+    color: #353128;
+    font-size: 18px;
+    background-color: #e6bd04;
+    padding: 10px 40px;
+    border-radius: 15px;
+}
+
+.header .content-buttons ul li .buttonHelp {
+    color: #fff;
+    background-color: #353128;
+    border: 2px solid #e6bd04;
+    transition: all .2s;
+}
+
+.header .content-buttons ul li .buttonHelp:hover {
+    background-color: #e6bd04;
+    color: #353128;
+}
+
+/* div.features */
+
+.features {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e6bd04;
+    color: #353128;
+    border-top: 2px solid #fff;
+    /* border-bottom: 2px solid #fff; */
+}
+
+.features h1 {
+    font-size: 40px;
+    padding: 30px 0 10px 0;
+    text-transform: capitalize;
+    border-bottom: 2px solid #353128;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.content-feature img {
+    width: 80px;
+    height: 80px;
+}
+/* 
+.content-feature {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+} */
+
+.content-feature h3,
+.content-feature p {
+    margin: 5px;
+}
+
+.content-feature h3 {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.content-feature p {
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
